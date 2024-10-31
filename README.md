@@ -4,7 +4,7 @@ Ce script traite un fichier FASTA contenant plusieurs séquences et enregistre c
 
 ## Prérequis
 
-- Python 3.x
+- Python 3.9
 - Modules intégrés : `argparse`, `os`
 
 ## Installation
@@ -16,5 +16,5 @@ Téléchargez le script dans le dossier de votre choix.
 Exécutez le script depuis le terminal en spécifiant le fichier d'entrée et le répertoire de sortie.
 
 ```bash
-python main.py -in BLAST_db/21362final_plusieurs.fasta.txt -out Output_fasta_files
+python exercice2.py -in BLAST_db/21362final_plusieurs.fasta.txt -out Output_fasta_files
 
