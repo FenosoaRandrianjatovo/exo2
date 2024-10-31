@@ -1,0 +1,9 @@
+
+========================[ Sep 1, 2016 12:02 PM ]========================
+Version 2.2.11 [Jun-05-2005]
+Started database file "H4476genome.fasta"
+Formatted 1 sequences in volume 0
+
+========================[ Sep 1, 2016 12:05 PM ]========================
+NOTE: CoreLib [002.003] FileOpen("H4476DB.nhr","wb") failed
+NOTE: CoreLib [002.003] FileOpen("H4476DB.nsq","wb") failed
