@@ -1,0 +1,98 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: H4476DB
+           1 sequences; 2,240,883 total letters
+
+
+
+Query= t21
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_017516.1 Neisseria meningitidis H44/76 chromosome, complete ge...  241     6e-65
+
+
+>NC_017516.1 Neisseria meningitidis H44/76 chromosome, complete genome
+Length=2240883
+
+ Score = 241 bits (130),  Expect = 6e-65
+ Identities = 130/130 (100%), Gaps = 0/130 (0%)
+ Strand=Plus/Minus
+
+Query  1       CAGATTATGCCAGTTACAGAAAATGGAAAGAAAGTAATTCTTCTACTAAAAAAGTTACTG  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  456354  CAGATTATGCCAGTTACAGAAAATGGAAAGAAAGTAATTCTTCTACTAAAAAAGTTACTG  456295
+
+Query  61      AAGAGATAAACAACAACTACAAAGAAACCCAAACAAAACATCAGGGAAACGGCAGCTTCC  120
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  456294  AAGAGATAAACAACAACTACAAAGAAACCCAAACAAAACATCAGGGAAACGGCAGCTTCC  456235
+
+Query  121     ACGCCGTTTC  130
+               ||||||||||
+Sbjct  456234  ACGCCGTTTC  456225
+
+
+ Score = 231 bits (125),  Expect = 4e-62
+ Identities = 125/125 (100%), Gaps = 0/125 (0%)
+ Strand=Plus/Plus
+
+Query  1        CAGATTATGCCAGTTACAGAAAATGGAAAGAAAGTAATTCTTCTACTAAAAAAGTTACTG  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1359620  CAGATTATGCCAGTTACAGAAAATGGAAAGAAAGTAATTCTTCTACTAAAAAAGTTACTG  1359679
+
+Query  61       AAGAGATAAACAACAACTACAAAGAAACCCAAACAAAACATCAGGGAAACGGCAGCTTCC  120
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1359680  AAGAGATAAACAACAACTACAAAGAAACCCAAACAAAACATCAGGGAAACGGCAGCTTCC  1359739
+
+Query  121      ACGCC  125
+                |||||
+Sbjct  1359740  ACGCC  1359744
+
+
+ Score = 52.8 bits (28),  Expect = 3e-08
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Minus
+
+Query  1       CAGATTATGCCAGTTACAGAAAATGGAA  28
+               ||||||||||||||||||||||||||||
+Sbjct  630656  CAGATTATGCCAGTTACAGAAAATGGAA  630629
+
+
+ Score = 52.8 bits (28),  Expect = 3e-08
+ Identities = 28/28 (100%), Gaps = 0/28 (0%)
+ Strand=Plus/Plus
+
+Query  1       CAGATTATGCCAGTTACAGAAAATGGAA  28
+               ||||||||||||||||||||||||||||
+Sbjct  815473  CAGATTATGCCAGTTACAGAAAATGGAA  815500
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 248735904
+
+
+  Database: H4476DB
+    Posted date:  Sep 1, 2016 12:02 PM
+  Number of letters in database: 2,240,883
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

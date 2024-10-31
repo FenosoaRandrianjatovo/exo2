@@ -1,0 +1,63 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: H4476DB
+           1 sequences; 2,240,883 total letters
+
+
+
+Query= t3
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_017516.1 Neisseria meningitidis H44/76 chromosome, complete ge...  230     1e-61
+
+
+>NC_017516.1 Neisseria meningitidis H44/76 chromosome, complete genome
+Length=2240883
+
+ Score = 230 bits (124),  Expect = 1e-61
+ Identities = 129/131 (98%), Gaps = 2/131 (2%)
+ Strand=Plus/Plus
+
+Query  1        GACTGCCTTTTCGACAACCTTAATTTCCGTAGCCGAGGGCGCGGTTGTAGAGCTGCAGGC  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  1192614  GACTGCCTTTTCGACAACCTTAATTTCCGTAGCCGAGGGCGCGGTTGTAGAGCTGCAGGC  1192673
+
+Query  61       CGGTGAGAGCCAAAGCCGTCAATGCAACCG-CGCTTGCATTTTTACGGTCTTGAGTAAGG  119
+                | |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||
+Sbjct  1192674  C-GTGAGAGCCAAAGCCGTCAATGCAACCGCCGCTTGCATTTTTACGGTCTTGAGTAAGG  1192732
+
+Query  120      ACATTTTCGAT  130
+                |||||||||||
+Sbjct  1192733  ACATTTTCGAT  1192743
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 248735904
+
+
+  Database: H4476DB
+    Posted date:  Sep 1, 2016 12:02 PM
+  Number of letters in database: 2,240,883
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

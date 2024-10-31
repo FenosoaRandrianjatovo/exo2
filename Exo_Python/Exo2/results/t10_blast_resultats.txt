@@ -1,0 +1,3020 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: H4476DB
+           1 sequences; 2,240,883 total letters
+
+
+
+Query= t10
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_017516.1 Neisseria meningitidis H44/76 chromosome, complete ge...  241     6e-65
+
+
+>NC_017516.1 Neisseria meningitidis H44/76 chromosome, complete genome
+Length=2240883
+
+ Score = 241 bits (130),  Expect = 6e-65
+ Identities = 130/130 (100%), Gaps = 0/130 (0%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  793304  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  793245
+
+Query  61      TCCACTATACAGTCAAAATTACGGAGATCAAATAATGATTTTTAAACAGAATCAAAATTA  120
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  793244  TCCACTATACAGTCAAAATTACGGAGATCAAATAATGATTTTTAAACAGAATCAAAATTA  793185
+
+Query  121     TTGGGCAGTT  130
+               ||||||||||
+Sbjct  793184  TTGGGCAGTT  793175
+
+
+ Score = 128 bits (69),  Expect = 5e-31
+ Identities = 76/79 (96%), Gaps = 1/79 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  683629  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTT-AA  683687
+
+Query  61      TCCACTATACAGTCAAAAT  79
+               ||||||||| ||||| |||
+Sbjct  683688  TCCACTATATAGTCATAAT  683706
+
+
+ Score = 128 bits (69),  Expect = 5e-31
+ Identities = 72/73 (99%), Gaps = 1/73 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1221244  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1221186
+
+Query  61       TCCACTATACAGT  73
+                |||||||||||||
+Sbjct  1221185  TCCACTATACAGT  1221173
+
+
+ Score = 124 bits (67),  Expect = 7e-30
+ Identities = 70/71 (99%), Gaps = 1/71 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  427507  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  427449
+
+Query  61      TCCACTATACA  71
+               |||||||||||
+Sbjct  427448  TCCACTATACA  427438
+
+
+ Score = 124 bits (67),  Expect = 7e-30
+ Identities = 74/77 (96%), Gaps = 1/77 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  713596  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  713538
+
+Query  61      TCCACTATACAGTCAAA  77
+               |||||||||||  ||||
+Sbjct  713537  TCCACTATACATACAAA  713521
+
+
+ Score = 124 bits (67),  Expect = 7e-30
+ Identities = 72/74 (97%), Gaps = 1/74 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  798815  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTT-AA  798873
+
+Query  61      TCCACTATACAGTC  74
+               |||||||||| |||
+Sbjct  798874  TCCACTATACCGTC  798887
+
+
+ Score = 124 bits (67),  Expect = 7e-30
+ Identities = 72/74 (97%), Gaps = 1/74 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  821293  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  821235
+
+Query  61      TCCACTATACAGTC  74
+               |||||||||| |||
+Sbjct  821234  TCCACTATACCGTC  821221
+
+
+ Score = 124 bits (67),  Expect = 7e-30
+ Identities = 72/74 (97%), Gaps = 1/74 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1132095  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1132037
+
+Query  61       TCCACTATACAGTC  74
+                |||||||||| |||
+Sbjct  1132036  TCCACTATACCGTC  1132023
+
+
+ Score = 122 bits (66),  Expect = 2e-29
+ Identities = 69/70 (99%), Gaps = 1/70 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  289962  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  290020
+
+Query  61      TCCACTATAC  70
+               ||||||||||
+Sbjct  290021  TCCACTATAC  290030
+
+
+ Score = 122 bits (66),  Expect = 2e-29
+ Identities = 69/70 (99%), Gaps = 1/70 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  502577  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  502635
+
+Query  61      TCCACTATAC  70
+               ||||||||||
+Sbjct  502636  TCCACTATAC  502645
+
+
+ Score = 122 bits (66),  Expect = 2e-29
+ Identities = 69/70 (99%), Gaps = 1/70 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  547052  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  547110
+
+Query  61      TCCACTATAC  70
+               ||||||||||
+Sbjct  547111  TCCACTATAC  547120
+
+
+ Score = 122 bits (66),  Expect = 2e-29
+ Identities = 73/76 (96%), Gaps = 1/76 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               |||||||||||||||||||||||||||| |||||||||||||||||||||||||||| ||
+Sbjct  690994  TCGGTTCCGTACTATTTGTACTGTCTGCAGCTTCGTCGCCTTGTCCTGATTTTTGTT-AA  691052
+
+Query  61      TCCACTATACAGTCAA  76
+               ||||||||||| ||||
+Sbjct  691053  TCCACTATACAATCAA  691068
+
+
+ Score = 122 bits (66),  Expect = 2e-29
+ Identities = 69/70 (99%), Gaps = 1/70 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  842121  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  842063
+
+Query  61      TCCACTATAC  70
+               ||||||||||
+Sbjct  842062  TCCACTATAC  842053
+
+
+ Score = 122 bits (66),  Expect = 2e-29
+ Identities = 69/70 (99%), Gaps = 1/70 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1164131  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1164073
+
+Query  61       TCCACTATAC  70
+                ||||||||||
+Sbjct  1164072  TCCACTATAC  1164063
+
+
+ Score = 122 bits (66),  Expect = 2e-29
+ Identities = 69/70 (99%), Gaps = 1/70 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2051209  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2051151
+
+Query  61       TCCACTATAC  70
+                ||||||||||
+Sbjct  2051150  TCCACTATAC  2051141
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1      TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  16677  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  16735
+
+Query  61     TCCACTATA  69
+              |||||||||
+Sbjct  16736  TCCACTATA  16744
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  111378  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  111436
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  111437  TCCACTATA  111445
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  211911  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  211969
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  211970  TCCACTATA  211978
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  219856  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  219798
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  219797  TCCACTATA  219789
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  245821  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  245763
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  245762  TCCACTATA  245754
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  294234  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  294176
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  294175  TCCACTATA  294167
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  314556  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  314614
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  314615  TCCACTATA  314623
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 70/72 (97%), Gaps = 1/72 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  387524  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  387466
+
+Query  61      TCCACTATACAG  72
+               ||||||||| ||
+Sbjct  387465  TCCACTATAAAG  387454
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  394111  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  394169
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  394170  TCCACTATA  394178
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  401719  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  401661
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  401660  TCCACTATA  401652
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  541974  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  542032
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  542033  TCCACTATA  542041
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  707137  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  707195
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  707196  TCCACTATA  707204
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  719536  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTT-AA  719594
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  719595  TCCACTATA  719603
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  783507  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  783449
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  783448  TCCACTATA  783440
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  866398  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  866456
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  866457  TCCACTATA  866465
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  917606  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  917664
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  917665  TCCACTATA  917673
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1066005  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1066063
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1066064  TCCACTATA  1066072
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1069440  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1069382
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1069381  TCCACTATA  1069373
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 74/78 (95%), Gaps = 1/78 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1203320  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1203262
+
+Query  61       TCCACTATACAGTCAAAA  78
+                ||||||||| |  |||||
+Sbjct  1203261  TCCACTATAGAAACAAAA  1203244
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1211994  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1212052
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1212053  TCCACTATA  1212061
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1232221  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1232279
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1232280  TCCACTATA  1232288
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1431164  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1431106
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1431105  TCCACTATA  1431097
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1520611  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1520669
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1520670  TCCACTATA  1520678
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1543202  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1543260
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1543261  TCCACTATA  1543269
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1590126  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1590184
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1590185  TCCACTATA  1590193
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1613260  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1613318
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1613319  TCCACTATA  1613327
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1658209  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1658267
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1658268  TCCACTATA  1658276
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 70/72 (97%), Gaps = 1/72 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1873905  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1873847
+
+Query  61       TCCACTATACAG  72
+                ||||||||| ||
+Sbjct  1873846  TCCACTATAAAG  1873835
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1958174  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1958232
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1958233  TCCACTATA  1958241
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 72/75 (96%), Gaps = 2/75 (3%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||| 
+Sbjct  1991111  TCGGTTCCGTACTATTTGTACTGTCTTCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1991169
+
+Query  61       TCCACTATACAGTCA  75
+                ||||||||||| |||
+Sbjct  1991170  TCCACTATACA-TCA  1991183
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2013553  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2013495
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2013494  TCCACTATA  2013486
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2018094  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2018152
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2018153  TCCACTATA  2018161
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  2020836  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTT-AA  2020894
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2020895  TCCACTATA  2020903
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2028548  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2028606
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2028607  TCCACTATA  2028615
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2039020  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2038962
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2038961  TCCACTATA  2038953
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2061289  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2061231
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2061230  TCCACTATA  2061222
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2064681  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2064739
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2064740  TCCACTATA  2064748
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2065975  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2065917
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2065916  TCCACTATA  2065908
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2122766  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2122708
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2122707  TCCACTATA  2122699
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2154221  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2154279
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2154280  TCCACTATA  2154288
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2162497  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2162439
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2162438  TCCACTATA  2162430
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2185606  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2185548
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2185547  TCCACTATA  2185539
+
+
+ Score = 121 bits (65),  Expect = 8e-29
+ Identities = 68/69 (99%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2219790  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2219732
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2219731  TCCACTATA  2219723
+
+
+ Score = 119 bits (64),  Expect = 3e-28
+ Identities = 69/71 (97%), Gaps = 1/71 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| 
+Sbjct  1049695  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTTGCCTTGTCCTGATTTTTGTTAA-  1049637
+
+Query  61       TCCACTATACA  71
+                |||||||||||
+Sbjct  1049636  TCCACTATACA  1049626
+
+
+ Score = 119 bits (64),  Expect = 3e-28
+ Identities = 71/74 (96%), Gaps = 2/74 (3%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| 
+Sbjct  1202961  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTGGTCGCCTTGTCCTGATTTTTGTTAA-  1202903
+
+Query  61       TCCACTATACAGTC  74
+                |||||||||| |||
+Sbjct  1202902  TCCACTATAC-GTC  1202890
+
+
+ Score = 119 bits (64),  Expect = 3e-28
+ Identities = 69/71 (97%), Gaps = 1/71 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| 
+Sbjct  2030312  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGCCGCCTTGTCCTGATTTTTGTTAA-  2030254
+
+Query  61       TCCACTATACA  71
+                |||||||||||
+Sbjct  2030253  TCCACTATACA  2030243
+
+
+ Score = 119 bits (64),  Expect = 3e-28
+ Identities = 67/68 (99%), Gaps = 1/68 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2125628  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2125686
+
+Query  61       TCCACTAT  68
+                ||||||||
+Sbjct  2125687  TCCACTAT  2125694
+
+
+ Score = 117 bits (63),  Expect = 1e-27
+ Identities = 68/70 (97%), Gaps = 1/70 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  548634  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  548576
+
+Query  61      TCCACTATAC  70
+               ||||||||||
+Sbjct  548575  TCCACTATAC  548566
+
+
+ Score = 117 bits (63),  Expect = 1e-27
+ Identities = 68/70 (97%), Gaps = 1/70 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  800414  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  800356
+
+Query  61      TCCACTATAC  70
+               ||||||||||
+Sbjct  800355  TCCACTATAC  800346
+
+
+ Score = 117 bits (63),  Expect = 1e-27
+ Identities = 68/70 (97%), Gaps = 1/70 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  864098  TCGGTTCCGTACTATTCGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  864156
+
+Query  61      TCCACTATAC  70
+               ||||||||||
+Sbjct  864157  TCCACTATAC  864166
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1      TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+              ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||| 
+Sbjct  55232  TCGGTTCCGTACTATTTGTGCTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  55290
+
+Query  61     TCCACTATA  69
+              |||||||||
+Sbjct  55291  TCCACTATA  55299
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  187323  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  187381
+
+Query  61      TCCACTATA  69
+               ||| |||||
+Sbjct  187382  TCCGCTATA  187390
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||| 
+Sbjct  189618  TCGGTTCCGTACTATTTGCACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  189560
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  189559  TCCACTATA  189551
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| 
+Sbjct  273730  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGCCGCCTTGTCCTGATTTTTGTTAA-  273788
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  273789  TCCACTATA  273797
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  360663  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  360721
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  360722  TCCACTATA  360730
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  391505  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  391447
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  391446  TCCACTATA  391438
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  456901  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTT-AA  456959
+
+Query  61      TCCACTATA  69
+               ||| |||||
+Sbjct  456960  TCCGCTATA  456968
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| 
+Sbjct  578902  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTTTCCTGATTTTTGTTAA-  578844
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  578843  TCCACTATA  578835
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| 
+Sbjct  587628  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTTTCCTGATTTTTGTTAA-  587570
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  587569  TCCACTATA  587561
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  591487  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  591429
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  591428  TCCACTATA  591420
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  788123  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  788181
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  788182  TCCACTATA  788190
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  789191  TCGGTTTCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  789249
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  789250  TCCACTATA  789258
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  805402  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  805460
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  805461  TCCACTATA  805469
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  956505  TCGGTTCCGTACTGTTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  956447
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  956446  TCCACTATA  956438
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| 
+Sbjct  965475  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCTCCTTGTCCTGATTTTTGTTAA-  965533
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  965534  TCCACTATA  965542
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1079778  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1079836
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1079837  TCCACTATA  1079845
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| 
+Sbjct  1255055  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTTGCCTTGTCCTGATTTTTGTTAA-  1255113
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1255114  TCCACTATA  1255122
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1267652  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1267710
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1267711  TCCACTATA  1267719
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||||||||||||||||| |||||||||||||||||| 
+Sbjct  1279779  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCGTGTCCTGATTTTTGTTAA-  1279721
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1279720  TCCACTATA  1279712
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 76/82 (93%), Gaps = 3/82 (4%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1297167  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1297109
+
+Query  61       TCCACTATA--CAGTCAAAATT  80
+                |||||||||  || |||| |||
+Sbjct  1297108  TCCACTATATGCAATCAATATT  1297087
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1349663  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1349605
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1349604  TCCACTATA  1349596
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| 
+Sbjct  1354475  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGCCGCCTTGTCCTGATTTTTGTTAA-  1354417
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1354416  TCCACTATA  1354408
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 69/72 (96%), Gaps = 1/72 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1359167  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1359109
+
+Query  61       TCCACTATACAG  72
+                ||||||||| ||
+Sbjct  1359108  TCCACTATAAAG  1359097
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  1367716  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTT-AA  1367774
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1367775  TCCACTATA  1367783
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| 
+Sbjct  1512202  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTTGCCTTGTCCTGATTTTTGTTAA-  1512260
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1512261  TCCACTATA  1512269
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||| 
+Sbjct  1531623  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCATCGCCTTGTCCTGATTTTTGTTAA-  1531681
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1531682  TCCACTATA  1531690
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| 
+Sbjct  1542369  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTTGCCTTGTCCTGATTTTTGTTAA-  1542311
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1542310  TCCACTATA  1542302
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| 
+Sbjct  1562199  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGCCGCCTTGTCCTGATTTTTGTTAA-  1562141
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1562140  TCCACTATA  1562132
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||| 
+Sbjct  1603805  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCTTTGTCCTGATTTTTGTTAA-  1603863
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1603864  TCCACTATA  1603872
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1650332  TCGGCTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1650274
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1650273  TCCACTATA  1650265
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1652159  TCGGCTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1652217
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1652218  TCCACTATA  1652226
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1660071  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1660013
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1660012  TCCACTATA  1660004
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1670028  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1669970
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1669969  TCCACTATA  1669961
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1714410  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1714468
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1714469  TCCACTATA  1714477
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  1722692  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTT-AA  1722750
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1722751  TCCACTATA  1722759
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1749468  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1749410
+
+Query  61       TCCACTATA  69
+                |||||| ||
+Sbjct  1749409  TCCACTCTA  1749401
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1856816  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1856874
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1856875  TCCACTATA  1856883
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1972584  TCGGTTTCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1972526
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1972525  TCCACTATA  1972517
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2001179  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2001237
+
+Query  61       TCCACTATA  69
+                ||| |||||
+Sbjct  2001238  TCCGCTATA  2001246
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||||| |||||||||||||||||||||||||||||| 
+Sbjct  2112752  TCGGTTCCGTACTATTTGTACTGTCTGCAGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2112694
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2112693  TCCACTATA  2112685
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2115058  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2115116
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2115117  TCCACTATA  2115125
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||
+Sbjct  2124661  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTATCCTGATTTTTGTT-AA  2124719
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2124720  TCCACTATA  2124728
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 65/66 (98%), Gaps = 1/66 (2%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  2125351  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTT-AA  2125409
+
+Query  61       TCCACT  66
+                ||||||
+Sbjct  2125410  TCCACT  2125415
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2128004  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2128062
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2128063  TCCACTATA  2128071
+
+
+ Score = 115 bits (62),  Expect = 4e-27
+ Identities = 67/69 (97%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2210109  TCGGTTCCGTACTGTTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2210051
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2210050  TCCACTATA  2210042
+
+
+ Score = 113 bits (61),  Expect = 1e-26
+ Identities = 64/65 (98%), Gaps = 1/65 (2%)
+ Strand=Plus/Plus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  850658  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  850716
+
+Query  67      ATACA  71
+               |||||
+Sbjct  850717  ATACA  850721
+
+
+ Score = 113 bits (61),  Expect = 1e-26
+ Identities = 70/74 (95%), Gaps = 1/74 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               |||||| |||||| ||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  857125  TCGGTTTCGTACTGTTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTT-AA  857183
+
+Query  61      TCCACTATACAGTC  74
+               |||||||||| |||
+Sbjct  857184  TCCACTATACCGTC  857197
+
+
+ Score = 113 bits (61),  Expect = 1e-26
+ Identities = 64/65 (98%), Gaps = 1/65 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1344116  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1344058
+
+Query  67       ATACA  71
+                |||||
+Sbjct  1344057  ATACA  1344053
+
+
+ Score = 111 bits (60),  Expect = 5e-26
+ Identities = 65/67 (97%), Gaps = 2/67 (3%)
+ Strand=Plus/Plus
+
+Query  4       GTT-CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATC  62
+               ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  405193  GTTGCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TC  405251
+
+Query  63      CACTATA  69
+               |||||||
+Sbjct  405252  CACTATA  405258
+
+
+ Score = 111 bits (60),  Expect = 5e-26
+ Identities = 67/70 (96%), Gaps = 1/70 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | 
+Sbjct  458842  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTCA-  458900
+
+Query  61      TCCACTATAC  70
+               ||| ||||||
+Sbjct  458901  TCCGCTATAC  458910
+
+
+ Score = 111 bits (60),  Expect = 5e-26
+ Identities = 63/64 (98%), Gaps = 1/64 (2%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  912236  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  912178
+
+Query  67      ATAC  70
+               ||||
+Sbjct  912177  ATAC  912174
+
+
+ Score = 111 bits (60),  Expect = 5e-26
+ Identities = 65/67 (97%), Gaps = 1/67 (1%)
+ Strand=Plus/Minus
+
+Query  3        GGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATC  62
+                ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||| ||
+Sbjct  1290685  GGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCATGATTTTTGTTAA-TC  1290627
+
+Query  63       CACTATA  69
+                |||||||
+Sbjct  1290626  CACTATA  1290620
+
+
+ Score = 111 bits (60),  Expect = 5e-26
+ Identities = 67/70 (96%), Gaps = 1/70 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| |||||||||||||||||||||||||||||| |||||||||||| 
+Sbjct  1388551  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCCGATTTTTGTTAA-  1388609
+
+Query  61       TCCACTATAC  70
+                ||||||||||
+Sbjct  1388610  TCCACTATAC  1388619
+
+
+ Score = 111 bits (60),  Expect = 5e-26
+ Identities = 69/73 (95%), Gaps = 2/73 (3%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1459435  TCGGTTCCGTACTATTTATACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1459493
+
+Query  61       TCCACTATA-CAG  72
+                ||| ||||| |||
+Sbjct  1459494  TCCCCTATATCAG  1459506
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  168370  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  168428
+
+Query  67      ATA  69
+               |||
+Sbjct  168429  ATA  168431
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  206634  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  206576
+
+Query  67      ATA  69
+               |||
+Sbjct  206575  ATA  206573
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 2/69 (3%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||| 
+Sbjct  274793  TCGGTTCCGTACTATTTGTACTGTCTGCGGC-TCGCCGCCTTGTCCTGATTTTTGTTAA-  274850
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  274851  TCCACTATA  274859
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| 
+Sbjct  328922  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGCCGCCTTGTCCTGATTTTTGTTAA-  328980
+
+Query  61      TCCACTATA  69
+               |||| ||||
+Sbjct  328981  TCCATTATA  328989
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  334128  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  334186
+
+Query  67      ATA  69
+               |||
+Sbjct  334187  ATA  334189
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  404731  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  404673
+
+Query  67      ATA  69
+               |||
+Sbjct  404672  ATA  404670
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  406665  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  406723
+
+Query  61      TCCACTATA  69
+               |||| ||||
+Sbjct  406724  TCCATTATA  406732
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||| |||||||||||| |||||||||||||||||||||||||||||| 
+Sbjct  464754  TCGGTTCCGTACTATCTGTACTGTCTGCAGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  464696
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  464695  TCCACTATA  464687
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  511208  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  511266
+
+Query  67      ATA  69
+               |||
+Sbjct  511267  ATA  511269
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 2/69 (3%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               |||||||||||||||||||||||||||||||| || ||||||||||||||||||||||| 
+Sbjct  534688  TCGGTTCCGTACTATTTGTACTGTCTGCGGCT-CGCCGCCTTGTCCTGATTTTTGTTAA-  534631
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  534630  TCCACTATA  534622
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||| 
+Sbjct  542825  TCGGTTCTGTACTATTTGTACTGTCTGCGGCTTCGTCACCTTGTCCTGATTTTTGTTAA-  542883
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  542884  TCCACTATA  542892
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  612919  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  612861
+
+Query  67      ATA  69
+               |||
+Sbjct  612860  ATA  612858
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  659915  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  659973
+
+Query  67      ATA  69
+               |||
+Sbjct  659974  ATA  659976
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  695390  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  695332
+
+Query  67      ATA  69
+               |||
+Sbjct  695331  ATA  695329
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               |||||||||||||||||||||||||||| |||||| ||||||||||||||||||||||| 
+Sbjct  712938  TCGGTTCCGTACTATTTGTACTGTCTGCAGCTTCGCCGCCTTGTCCTGATTTTTGTTAA-  712880
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  712879  TCCACTATA  712871
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 68/72 (94%), Gaps = 1/72 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  772548  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  772490
+
+Query  61      TCCACTATACAG  72
+               ||| | ||| ||
+Sbjct  772489  TCCGCCATAAAG  772478
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               |||||||||||||||||||||||||||||||||||| |||||||||||||||||||||| 
+Sbjct  815005  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTTGCCTTGTCCTGATTTTTGTTAA-  814947
+
+Query  61      TCCACTATA  69
+               ||| |||||
+Sbjct  814946  TCCGCTATA  814938
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 68/72 (94%), Gaps = 1/72 (1%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  861885  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  861827
+
+Query  61      TCCACTATACAG  72
+               ||| ||||| ||
+Sbjct  861826  TCCGCTATAAAG  861815
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  910273  TCGGTTCCGTATTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  910331
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  910332  TCCACTATA  910340
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  980984  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  980926
+
+Query  67      ATA  69
+               |||
+Sbjct  980925  ATA  980923
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  986639  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  986581
+
+Query  67      ATA  69
+               |||
+Sbjct  986580  ATA  986578
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||  |||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1010847  TCGGTTCCGTACTATTTACACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1010789
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1010788  TCCACTATA  1010780
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1015811  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1015753
+
+Query  67       ATA  69
+                |||
+Sbjct  1015752  ATA  1015750
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1021501  TCGGTTTCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1021559
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1021560  TCCACTATA  1021568
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||| 
+Sbjct  1421308  TCGGTTCTGTACTATTTGTACTGTCTGCGGCTTCGTTGCCTTGTCCTGATTTTTGTTAA-  1421366
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1421367  TCCACTATA  1421375
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||| ||||||||||||||||||||||||||||||||||| 
+Sbjct  1457099  TCGGTTCCGTACTATCTGTACTGCCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1457157
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1457158  TCCACTATA  1457166
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1591374  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1591316
+
+Query  61       TCC  63
+                |||
+Sbjct  1591315  TCC  1591313
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||| |||||||||||||||||||||||||||||| ||||||||||||||||||||||| 
+Sbjct  1599472  TCGGCTCCGTACTATTTGTACTGTCTGCGGCTTCGCCGCCTTGTCCTGATTTTTGTTAA-  1599414
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1599413  TCCACTATA  1599405
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1694145  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1694087
+
+Query  67       ATA  69
+                |||
+Sbjct  1694086  ATA  1694084
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1706853  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1706795
+
+Query  67       ATA  69
+                |||
+Sbjct  1706794  ATA  1706792
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||| 
+Sbjct  1936653  TCGGTTTCGTACTATTTGTACTGTTTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1936595
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1936594  TCCACTATA  1936586
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1985054  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1985112
+
+Query  67       ATA  69
+                |||
+Sbjct  1985113  ATA  1985115
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 68/72 (94%), Gaps = 1/72 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  2030824  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  2030766
+
+Query  61       TCCACTATACAG  72
+                ||| ||||| ||
+Sbjct  2030765  TCCGCTATAAAG  2030754
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||  |||||||||||||||||||||||||||||||||||||||| ||
+Sbjct  2061642  TCGGTTCCGTACTATCCGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTT-AA  2061700
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  2061701  TCCACTATA  2061709
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  2158928  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  2158986
+
+Query  67       ATA  69
+                |||
+Sbjct  2158987  ATA  2158989
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  2177957  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  2177899
+
+Query  67       ATA  69
+                |||
+Sbjct  2177898  ATA  2177896
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 66/69 (96%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| 
+Sbjct  2216717  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTATCCTGATTTTTGTTAAT  2216658
+
+Query  61       TCCACTATA  69
+                || ||||||
+Sbjct  2216657  TC-ACTATA  2216650
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 68/72 (94%), Gaps = 1/72 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| 
+Sbjct  2217128  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTATCCTGATTTTTGTTAA-  2217070
+
+Query  61       TCCACTATACAG  72
+                ||| ||||| ||
+Sbjct  2217069  TCCGCTATAAAG  2217058
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 68/72 (94%), Gaps = 1/72 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| 
+Sbjct  2217650  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGCCGCCTTGTCCTGATTTTTGTTAA-  2217592
+
+Query  61       TCCACTATACAG  72
+                ||| ||||| ||
+Sbjct  2217591  TCCGCTATAAAG  2217580
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  2227045  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  2226987
+
+Query  67       ATA  69
+                |||
+Sbjct  2226986  ATA  2226984
+
+
+ Score = 110 bits (59),  Expect = 2e-25
+ Identities = 62/63 (98%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  2228399  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  2228341
+
+Query  67       ATA  69
+                |||
+Sbjct  2228340  ATA  2228338
+
+
+ Score = 106 bits (57),  Expect = 2e-24
+ Identities = 64/67 (96%), Gaps = 2/67 (3%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  369033  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  368975
+
+Query  67      ATACAGT  73
+               ||| |||
+Sbjct  368974  ATA-AGT  368969
+
+
+ Score = 106 bits (57),  Expect = 2e-24
+ Identities = 68/73 (93%), Gaps = 2/73 (3%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||| |||||||||||||||||||||||||||| |||||||||||||||||||||| 
+Sbjct  648392  TCGGTTCTGTACTATTTGTACTGTCTGCGGCTTCGTTGCCTTGTCCTGATTTTTGTTAA-  648334
+
+Query  61      TCCACTATA-CAG  72
+               ||| ||||| |||
+Sbjct  648333  TCCGCTATATCAG  648321
+
+
+ Score = 106 bits (57),  Expect = 2e-24
+ Identities = 65/69 (94%), Gaps = 0/69 (0%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||   || ||
+Sbjct  679028  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAA  678969
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  678968  TCCACTATA  678960
+
+
+ Score = 106 bits (57),  Expect = 2e-24
+ Identities = 65/69 (94%), Gaps = 0/69 (0%)
+ Strand=Plus/Minus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||   || ||
+Sbjct  817636  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAA  817577
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  817576  TCCACTATA  817568
+
+
+ Score = 106 bits (57),  Expect = 2e-24
+ Identities = 62/64 (97%), Gaps = 1/64 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||| ||||||||||||||||||| ||||||
+Sbjct  1278968  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCTTTGTCCTGATTTTTGTTAA-TCCACT  1278910
+
+Query  67       ATAC  70
+                ||||
+Sbjct  1278909  ATAC  1278906
+
+
+ Score = 106 bits (57),  Expect = 2e-24
+ Identities = 64/67 (96%), Gaps = 1/67 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1418748  TCGGTTCCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1418690
+
+Query  61       TCCACTA  67
+                || ||||
+Sbjct  1418689  TCTACTA  1418683
+
+
+ Score = 106 bits (57),  Expect = 2e-24
+ Identities = 62/64 (97%), Gaps = 1/64 (2%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                |||||||||||||||||||||||||||||||||||| |||||||||||||||| ||||||
+Sbjct  1556920  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTATCCTGATTTTTGTTAA-TCCACT  1556978
+
+Query  67       ATAC  70
+                ||||
+Sbjct  1556979  ATAC  1556982
+
+
+ Score = 106 bits (57),  Expect = 2e-24
+ Identities = 62/64 (97%), Gaps = 1/64 (2%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1699718  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1699776
+
+Query  67       ATAC  70
+                ||||
+Sbjct  1699777  ATAC  1699780
+
+
+ Score = 106 bits (57),  Expect = 2e-24
+ Identities = 65/69 (94%), Gaps = 0/69 (0%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||   || ||
+Sbjct  1934831  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTCAA  1934890
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1934891  TCCACTATA  1934899
+
+
+ Score = 106 bits (57),  Expect = 2e-24
+ Identities = 64/67 (96%), Gaps = 2/67 (3%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1938531  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1938473
+
+Query  67       ATA-CAG  72
+                ||| |||
+Sbjct  1938472  ATATCAG  1938466
+
+
+ Score = 106 bits (57),  Expect = 2e-24
+ Identities = 62/64 (97%), Gaps = 1/64 (2%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                || |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||
+Sbjct  2146977  CCATACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTT-AATCCACT  2147035
+
+Query  67       ATAC  70
+                ||||
+Sbjct  2147036  ATAC  2147039
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7      CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+              ||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  34498  CCGTACTATTTATACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  34556
+
+Query  67     ATA  69
+              |||
+Sbjct  34557  ATA  34559
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  101337  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  101279
+
+Query  67      ATA  69
+               |||
+Sbjct  101278  ATA  101276
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 65/69 (94%), Gaps = 1/69 (1%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               |||||| ||||||  |||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  193430  TCGGTTTCGTACTGCTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  193489
+
+Query  61      TCCACTATA  69
+                ||||||||
+Sbjct  193490  -CCACTATA  193497
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||||||||| || |||
+Sbjct  830251  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAATTC-ACT  830193
+
+Query  67      ATA  69
+               |||
+Sbjct  830192  ATA  830190
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 65/69 (94%), Gaps = 2/69 (3%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||| ||| ||||||||||| ||||||||||| 
+Sbjct  874403  TCGGTTCCGTACTATTTGTACTGTCTGCGGC-TCGCCGCCTTGTCCTAATTTTTGTTAA-  874460
+
+Query  61      TCCACTATA  69
+               |||||||||
+Sbjct  874461  TCCACTATA  874469
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1008021  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1008079
+
+Query  67       ATA  69
+                |||
+Sbjct  1008080  ATA  1008082
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                |||||||||||||||||||||||||||||||||||||||| |||||||||||| ||||||
+Sbjct  1028427  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCGGATTTTTGTTAA-TCCACT  1028369
+
+Query  67       ATA  69
+                |||
+Sbjct  1028368  ATA  1028366
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1082180  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1082238
+
+Query  67       ATA  69
+                |||
+Sbjct  1082239  ATA  1082241
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                |||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||
+Sbjct  1280930  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTTCTGATTTTTGTTAA-TCCACT  1280988
+
+Query  67       ATA  69
+                |||
+Sbjct  1280989  ATA  1280991
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 66/71 (93%), Gaps = 0/71 (0%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||   || | 
+Sbjct  1415454  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAC  1415395
+
+Query  61       TCCACTATACA  71
+                |||||||||||
+Sbjct  1415394  TCCACTATACA  1415384
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1430030  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1430088
+
+Query  67       ATA  69
+                |||
+Sbjct  1430089  ATA  1430091
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||| ||||||||||||||||||||| ||||||
+Sbjct  1541983  CCGTACTATTTGTACTGTCTGCGGCTTCGTCTCCTTGTCCTGATTTTTGTTAA-TCCACT  1541925
+
+Query  67       ATA  69
+                |||
+Sbjct  1541924  ATA  1541922
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 65/69 (94%), Gaps = 2/69 (3%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||| 
+Sbjct  1557903  TCGGTTCCGTACTATTTGTACTGTCTGCGGC-TCGCCGCCTTGTCCTGATTTTTGTTAAT  1557961
+
+Query  61       TCCACTATA  69
+                || ||||||
+Sbjct  1557962  TC-ACTATA  1557969
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1579161  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1579103
+
+Query  67       ATA  69
+                |||
+Sbjct  1579102  ATA  1579100
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||| ||||||||||||||||||||||| ||||||
+Sbjct  1580506  CCGTACTATTTGTACTGTCTGCGGCTTCGCCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1580564
+
+Query  67       ATA  69
+                |||
+Sbjct  1580565  ATA  1580567
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 61/63 (97%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| ||||||||||||||||||||||||||||||||||||||||||| ||||||
+Sbjct  1686811  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1686753
+
+Query  67       ATA  69
+                |||
+Sbjct  1686752  ATA  1686750
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 65/69 (94%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||| |||||||||||  |||||||||||||||||||||||||||||||||||||||||| 
+Sbjct  1716391  TCGATTCCGTACTATCCGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-  1716333
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1716332  TCCACTATA  1716324
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 65/69 (94%), Gaps = 2/69 (3%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||||||||||||||||||||||| || ||||||||||||||||||||| | 
+Sbjct  1853624  TCGGTTCCGTACTATTTGTACTGTCTGCGGCT-CGCCGCCTTGTCCTGATTTTTGTTCA-  1853567
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1853566  TCCACTATA  1853558
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 65/69 (94%), Gaps = 1/69 (1%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                |||||||||||| || |||||||||||||||||||||||||||||||||||||||| || 
+Sbjct  1876438  TCGGTTCCGTACCATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTGAA-  1876380
+
+Query  61       TCCACTATA  69
+                |||||||||
+Sbjct  1876379  TCCACTATA  1876371
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 65/69 (94%), Gaps = 2/69 (3%)
+ Strand=Plus/Plus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||| 
+Sbjct  1888295  TCGGTTCCGTACTATTTGTACTGTCTGCGGC-TCGCCGCCTTGTCCTGATTTTTGTTAAT  1888353
+
+Query  61       TCCACTATA  69
+                || ||||||
+Sbjct  1888354  TC-ACTATA  1888361
+
+
+ Score = 104 bits (56),  Expect = 8e-24
+ Identities = 66/71 (93%), Gaps = 0/71 (0%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+                ||||||||||||||||||||| ||||||||||||||||||||||||||||||   || ||
+Sbjct  1973953  TCGGTTCCGTACTATTTGTACCGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAA  1973894
+
+Query  61       TCCACTATACA  71
+                |||||||||||
+Sbjct  1973893  TCCACTATACA  1973883
+
+
+ Score = 102 bits (55),  Expect = 3e-23
+ Identities = 65/69 (94%), Gaps = 3/69 (4%)
+ Strand=Plus/Plus
+
+Query  1       TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+               ||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||| 
+Sbjct  225859  TCGGTTCCGTACTATTTGTACTGTCTGCGGC-TCGCCGCCTTGTCCTGATTTTTGTTAA-  225916
+
+Query  61      TCCACTATA  69
+               || ||||||
+Sbjct  225917  TC-ACTATA  225924
+
+
+ Score = 102 bits (55),  Expect = 3e-23
+ Identities = 60/62 (97%), Gaps = 1/62 (2%)
+ Strand=Plus/Minus
+
+Query  8        CGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACTA  67
+                |||||||| ||||||||||||||||||||||||||||||||||||||||||| |||||||
+Sbjct  1600175  CGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACTA  1600117
+
+Query  68       TA  69
+                ||
+Sbjct  1600116  TA  1600115
+
+
+ Score = 102 bits (55),  Expect = 3e-23
+ Identities = 60/62 (97%), Gaps = 1/62 (2%)
+ Strand=Plus/Plus
+
+Query  8        CGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACTA  67
+                |||||||| ||||||||||||||||||||||||||||||||||||||||||| |||||||
+Sbjct  1845600  CGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACTA  1845658
+
+Query  68       TA  69
+                ||
+Sbjct  1845659  TA  1845660
+
+
+ Score = 100 bits (54),  Expect = 1e-22
+ Identities = 64/69 (93%), Gaps = 0/69 (0%)
+ Strand=Plus/Plus
+
+Query  1      TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAA  60
+              ||||||||||||||||||||||||||||||||||||||||||||||||||||   ||  |
+Sbjct  30689  TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTGA  30748
+
+Query  61     TCCACTATA  69
+              |||||||||
+Sbjct  30749  TCCACTATA  30757
+
+
+ Score = 100 bits (54),  Expect = 1e-22
+ Identities = 57/58 (98%), Gaps = 1/58 (2%)
+ Strand=Plus/Plus
+
+Query  12       CTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACTATA  69
+                |||||||||||||||||||||||||||||||||||||||||||||||| |||||||||
+Sbjct  1107334  CTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACTATA  1107390
+
+
+ Score = 99.0 bits (53),  Expect = 4e-22
+ Identities = 60/63 (95%), Gaps = 1/63 (2%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| |||||||||| |||||||||||||||||||||||||||||||| ||||||
+Sbjct  1384781  CCGTACTATCTGTACTGTCTTCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACT  1384839
+
+Query  67       ATA  69
+                |||
+Sbjct  1384840  ATA  1384842
+
+
+ Score = 99.0 bits (53),  Expect = 4e-22
+ Identities = 60/63 (95%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| ||||||||||||||||||||||||||||||||||||||||||| || |||
+Sbjct  2052110  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAATTC-ACT  2052052
+
+Query  67       ATA  69
+                |||
+Sbjct  2052051  ATA  2052049
+
+
+ Score = 97.1 bits (52),  Expect = 1e-21
+ Identities = 60/64 (94%), Gaps = 0/64 (0%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  1417061  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  1417120
+
+Query  67       ATAC  70
+                ||||
+Sbjct  1417121  ATAC  1417124
+
+
+ Score = 95.3 bits (51),  Expect = 5e-21
+ Identities = 60/64 (94%), Gaps = 2/64 (3%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||  ||||||||||||||||||||||||||||||||||||||||||| || |||
+Sbjct  382509  CCGTACTAGCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TC-ACT  382452
+
+Query  67      ATAC  70
+               ||||
+Sbjct  382451  ATAC  382448
+
+
+ Score = 95.3 bits (51),  Expect = 5e-21
+ Identities = 59/63 (94%), Gaps = 0/63 (0%)
+ Strand=Plus/Plus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  918171  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  918230
+
+Query  67      ATA  69
+               |||
+Sbjct  918231  ATA  918233
+
+
+ Score = 95.3 bits (51),  Expect = 5e-21
+ Identities = 59/63 (94%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  949340  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  949281
+
+Query  67      ATA  69
+               |||
+Sbjct  949280  ATA  949278
+
+
+ Score = 95.3 bits (51),  Expect = 5e-21
+ Identities = 59/63 (94%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  1226305  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  1226246
+
+Query  67       ATA  69
+                |||
+Sbjct  1226245  ATA  1226243
+
+
+ Score = 95.3 bits (51),  Expect = 5e-21
+ Identities = 59/63 (94%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  1295298  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  1295239
+
+Query  67       ATA  69
+                |||
+Sbjct  1295238  ATA  1295236
+
+
+ Score = 95.3 bits (51),  Expect = 5e-21
+ Identities = 60/64 (94%), Gaps = 2/64 (3%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTT-GTTAAATCCAC  65
+                ||||||||||||||||||||||||||||||||||||||||||||||   ||||| |||||
+Sbjct  1396216  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAAGTTAA-TCCAC  1396274
+
+Query  66       TATA  69
+                ||||
+Sbjct  1396275  TATA  1396278
+
+
+ Score = 95.3 bits (51),  Expect = 5e-21
+ Identities = 59/63 (94%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  1567064  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  1567005
+
+Query  67       ATA  69
+                |||
+Sbjct  1567004  ATA  1567002
+
+
+ Score = 95.3 bits (51),  Expect = 5e-21
+ Identities = 59/63 (94%), Gaps = 0/63 (0%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  1587002  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  1587061
+
+Query  67       ATA  69
+                |||
+Sbjct  1587062  ATA  1587064
+
+
+ Score = 95.3 bits (51),  Expect = 5e-21
+ Identities = 59/63 (94%), Gaps = 0/63 (0%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  1664825  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  1664884
+
+Query  67       ATA  69
+                |||
+Sbjct  1664885  ATA  1664887
+
+
+ Score = 95.3 bits (51),  Expect = 5e-21
+ Identities = 59/63 (94%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  1950042  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  1949983
+
+Query  67       ATA  69
+                |||
+Sbjct  1949982  ATA  1949980
+
+
+ Score = 95.3 bits (51),  Expect = 5e-21
+ Identities = 59/63 (94%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  2054053  CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  2053994
+
+Query  67       ATA  69
+                |||
+Sbjct  2053993  ATA  2053991
+
+
+ Score = 93.5 bits (50),  Expect = 2e-20
+ Identities = 55/57 (96%), Gaps = 1/57 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCC  63
+                ||||||||| ||||||||||||||||||||||||||||||||||||||||||| |||
+Sbjct  1073856  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCC  1073801
+
+
+ Score = 91.6 bits (49),  Expect = 7e-20
+ Identities = 52/53 (98%), Gaps = 1/53 (2%)
+ Strand=Plus/Minus
+
+Query  18      GTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACTATAC  70
+               |||||||||||||||||||||||||||||||||||||||||| ||||||||||
+Sbjct  555853  GTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAA-TCCACTATAC  555802
+
+
+ Score = 91.6 bits (49),  Expect = 7e-20
+ Identities = 59/64 (92%), Gaps = 0/64 (0%)
+ Strand=Plus/Plus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               |||||| |||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  750649  CCGTACGATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  750708
+
+Query  67      ATAC  70
+               ||||
+Sbjct  750709  ATAC  750712
+
+
+ Score = 89.8 bits (48),  Expect = 2e-19
+ Identities = 58/63 (92%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||| ||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  336839  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  336780
+
+Query  67      ATA  69
+               |||
+Sbjct  336779  ATA  336777
+
+
+ Score = 89.8 bits (48),  Expect = 2e-19
+ Identities = 58/63 (92%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||||||||||||||||||||||| ||||||||||||||||   || ||||||||
+Sbjct  464402  CCGTACTATTTGTACTGTCTGCGGCTTCGCCGCCTTGTCCTGATTTAAATTTAATCCACT  464343
+
+Query  67      ATA  69
+               |||
+Sbjct  464342  ATA  464340
+
+
+ Score = 89.8 bits (48),  Expect = 2e-19
+ Identities = 58/63 (92%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7       CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+               ||||||||| ||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  763713  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  763654
+
+Query  67      ATA  69
+               |||
+Sbjct  763653  ATA  763651
+
+
+ Score = 89.8 bits (48),  Expect = 2e-19
+ Identities = 58/63 (92%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| ||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  1327832  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  1327773
+
+Query  67       ATA  69
+                |||
+Sbjct  1327772  ATA  1327770
+
+
+ Score = 89.8 bits (48),  Expect = 2e-19
+ Identities = 58/63 (92%), Gaps = 0/63 (0%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| ||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  1550903  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  1550962
+
+Query  67       ATA  69
+                |||
+Sbjct  1550963  ATA  1550965
+
+
+ Score = 89.8 bits (48),  Expect = 2e-19
+ Identities = 58/63 (92%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                |||||| |||||||||||||||||||||||||||||||||||||||   || ||||||||
+Sbjct  1839761  CCGTACCATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCCACT  1839702
+
+Query  67       ATA  69
+                |||
+Sbjct  1839701  ATA  1839699
+
+
+ Score = 89.8 bits (48),  Expect = 2e-19
+ Identities = 58/63 (92%), Gaps = 0/63 (0%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                |||||||||||||||||||||||||||||| |||||||||||||||   || ||||||||
+Sbjct  1898962  CCGTACTATTTGTACTGTCTGCGGCTTCGTTGCCTTGTCCTGATTTAAATTTAATCCACT  1899021
+
+Query  67       ATA  69
+                |||
+Sbjct  1899022  ATA  1899024
+
+
+ Score = 89.8 bits (48),  Expect = 2e-19
+ Identities = 58/63 (92%), Gaps = 0/63 (0%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                |||||||||||||||||||||||||||||| |||||||||||||||   || ||||||||
+Sbjct  1931174  CCGTACTATTTGTACTGTCTGCGGCTTCGTTGCCTTGTCCTGATTTAAATTTAATCCACT  1931233
+
+Query  67       ATA  69
+                |||
+Sbjct  1931234  ATA  1931236
+
+
+ Score = 89.8 bits (48),  Expect = 2e-19
+ Identities = 63/70 (90%), Gaps = 2/70 (3%)
+ Strand=Plus/Minus
+
+Query  1        TCGGTTCCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTT-GTTAA  59
+                |||||||||||||||  |||||||||||||||||||||||||||||||||||   |||||
+Sbjct  2162913  TCGGTTCCGTACTATCCGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAAGTTAA  2162854
+
+Query  60       ATCCACTATA  69
+                 ||||| |||
+Sbjct  2162853  -TCCACCATA  2162845
+
+
+ Score = 87.9 bits (47),  Expect = 9e-19
+ Identities = 58/63 (92%), Gaps = 1/63 (2%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||||||||||||||||||||||| ||||||| ||||||||||||| | ||| ||
+Sbjct  1290280  CCGTACTATTTGTACTGTCTGCGGCTTCGCCGCCTTGCCCTGATTTTTGTTCA-TCCGCT  1290222
+
+Query  67       ATA  69
+                |||
+Sbjct  1290221  ATA  1290219
+
+
+ Score = 84.2 bits (45),  Expect = 1e-17
+ Identities = 57/63 (90%), Gaps = 0/63 (0%)
+ Strand=Plus/Plus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                ||||||||| ||||||||||||||||||||||||||||||||||||   || |||| |||
+Sbjct  2133578  CCGTACTATCTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAATCTACT  2133637
+
+Query  67       ATA  69
+                |||
+Sbjct  2133638  ATA  2133640
+
+
+ Score = 84.2 bits (45),  Expect = 1e-17
+ Identities = 57/63 (90%), Gaps = 0/63 (0%)
+ Strand=Plus/Minus
+
+Query  7        CCGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACT  66
+                |||||||||||||||||||||||||||||| |||||||||||||||   || ||||| ||
+Sbjct  2236609  CCGTACTATTTGTACTGTCTGCGGCTTCGTTGCCTTGTCCTGATTTAAATTTAATCCGCT  2236550
+
+Query  67       ATA  69
+                |||
+Sbjct  2236549  ATA  2236547
+
+
+ Score = 80.5 bits (43),  Expect = 1e-16
+ Identities = 52/56 (93%), Gaps = 2/56 (4%)
+ Strand=Plus/Minus
+
+Query  18      GTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACTATA-CAG  72
+               ||||| |||||||||||||||||||||||||||||||||||| || |||||| |||
+Sbjct  417069  GTACTATCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAATTC-ACTATATCAG  417015
+
+
+ Score = 76.8 bits (41),  Expect = 2e-15
+ Identities = 55/62 (89%), Gaps = 0/62 (0%)
+ Strand=Plus/Minus
+
+Query  8        CGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACTA  67
+                ||||||  |||||||||||||||||||||||||||||||||||||   || || ||||||
+Sbjct  1365047  CGTACTGCTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAAACCACTA  1364988
+
+Query  68       TA  69
+                ||
+Sbjct  1364987  TA  1364986
+
+
+ Score = 76.8 bits (41),  Expect = 2e-15
+ Identities = 55/62 (89%), Gaps = 0/62 (0%)
+ Strand=Plus/Minus
+
+Query  8        CGTACTATTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACTA  67
+                ||||||  |||||||||||||||||||||||||||||||||||||   || || ||||||
+Sbjct  1573011  CGTACTGCTTGTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTTAAACCACTA  1572952
+
+Query  68       TA  69
+                ||
+Sbjct  1572951  TA  1572950
+
+
+ Score = 69.4 bits (37),  Expect = 3e-13
+ Identities = 47/52 (90%), Gaps = 0/52 (0%)
+ Strand=Plus/Minus
+
+Query  18       GTACTGTCTGCGGCTTCGTCGCCTTGTCCTGATTTTTGTTAAATCCACTATA  69
+                ||||| |||||||||||||||||||||||||||||   || |||||||||||
+Sbjct  2075479  GTACTATCTGCGGCTTCGTCGCCTTGTCCTGATTTAAATTCAATCCACTATA  2075428
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 248735904
+
+
+  Database: H4476DB
+    Posted date:  Sep 1, 2016 12:02 PM
+  Number of letters in database: 2,240,883
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5

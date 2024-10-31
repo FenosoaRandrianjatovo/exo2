@@ -1,0 +1,72 @@
+BLASTN 2.16.0+
+
+
+Reference: Zheng Zhang, Scott Schwartz, Lukas Wagner, and Webb
+Miller (2000), "A greedy algorithm for aligning DNA sequences", J
+Comput Biol 2000; 7(1-2):203-14.
+
+
+
+Database: H4476DB
+           1 sequences; 2,240,883 total letters
+
+
+
+Query= t35
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+NC_017516.1 Neisseria meningitidis H44/76 chromosome, complete ge...  241     6e-65
+
+
+>NC_017516.1 Neisseria meningitidis H44/76 chromosome, complete genome
+Length=2240883
+
+ Score = 241 bits (130),  Expect = 6e-65
+ Identities = 130/130 (100%), Gaps = 0/130 (0%)
+ Strand=Plus/Minus
+
+Query  1        CCTGATATGAGTTTGTTGTTGTAAATAATCTTTTGCTTGCTTACCTTGTAAATTAAAGGA  60
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2201072  CCTGATATGAGTTTGTTGTTGTAAATAATCTTTTGCTTGCTTACCTTGTAAATTAAAGGA  2201013
+
+Query  61       TTAACCGCACCTTGGATGATGCCGCGAATATCATCCATACGGTTACCCCACCAATTTTTA  120
+                ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2201012  TTAACCGCACCTTGGATGATGCCGCGAATATCATCCATACGGTTACCCCACCAATTTTTA  2200953
+
+Query  121      TTGGTGTATC  130
+                ||||||||||
+Sbjct  2200952  TTGGTGTATC  2200943
+
+
+ Score = 102 bits (55),  Expect = 3e-23
+ Identities = 55/55 (100%), Gaps = 0/55 (0%)
+ Strand=Plus/Minus
+
+Query  1        CCTGATATGAGTTTGTTGTTGTAAATAATCTTTTGCTTGCTTACCTTGTAAATTA  55
+                |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct  2192697  CCTGATATGAGTTTGTTGTTGTAAATAATCTTTTGCTTGCTTACCTTGTAAATTA  2192643
+
+
+
+Lambda      K        H
+    1.33    0.621     1.12 
+
+Gapped
+Lambda      K        H
+    1.28    0.460    0.850 
+
+Effective search space used: 248735904
+
+
+  Database: H4476DB
+    Posted date:  Sep 1, 2016 12:02 PM
+  Number of letters in database: 2,240,883
+  Number of sequences in database:  1
+
+
+
+Matrix: blastn matrix 1 -2
+Gap Penalties: Existence: 0, Extension: 2.5
