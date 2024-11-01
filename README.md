@@ -8,13 +8,9 @@ Ce script traite un fichier FASTA contenant plusieurs séquences et enregistre c
 - Modules intégrés : `argparse`, `os`,`subprocess`.
 -  BLAST
 
-## Installation
 
-Téléchargez le script dans le dossier de votre choix.
 
-## Utilisation
 
-Exécutez le script depuis le terminal en spécifiant le fichier d'entrée et le répertoire de sortie.
  
 # Prérequis pour l'utilisation de ce script
 
@@ -39,6 +35,7 @@ Téléchargez le script dans le dossier de votre choix.
 ```bash
 git clone https://github.com/FenosoaRandrianjatovo/exo2.git
 ```
+
 
 ## Utilisation de script Python
 
