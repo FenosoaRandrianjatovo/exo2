@@ -26,7 +26,7 @@ def process_fasta_file(input_file, output_dir, done):
 
     counter = 1 # To avoid overwriting the existing file. 
     # So This counter = 1 will help us to handle the existing ID for the sequence in faste file,
-    # by adding some index at the end of file name, like t7, t7_1
+    # by adding some index at the end of file name, hence t7 become t7_1
     # print(done)
     
     if not done: # If the exercice2 part 1 is not done
