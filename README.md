@@ -35,7 +35,7 @@ Donc pour utiliser ce script, installez BLAST via les instructions propres à vo
 - **macOS** : `brew install blast`
 - **Windows** : Téléchargez et installez BLAST à partir de [NCBI BLAST](https://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/)
 
-Après installation, vérifiez la version en exécutant :
+Après installation, vérifiez la version:
 
 ```bash
 blastn -version
@@ -52,7 +52,7 @@ git clone https://github.com/FenosoaRandrianjatovo/exo2.git
 
 Exécutez le script depuis le terminal en spécifiant le fichier d'entrée et le répertoire de sortie.
 
-Si la première partie de l'exercice 2 n'est pas terminée, utilisez `-done False`. Une fois la première partie complétée, utilisez `-done True` pour continuer à la deuxième partie.
+Si la première partie de l'exercice 2 n'est pas terminée, utilisez `-done False`. Alors une fois la première partie est complétée, utilisez `-done True` pour continuer à la deuxième partie.
 
 ### Exemple d'exécution
 
