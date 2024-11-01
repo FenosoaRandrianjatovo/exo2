@@ -1,5 +1,6 @@
 import os
 import argparse
+import subprocess
 
 def create_output_directory(output_dir):
     """
@@ -7,7 +8,12 @@ def create_output_directory(output_dir):
     :param output_dir: Chemin vers le répertoire de sortie
     """
     os.makedirs(output_dir, exist_ok=True)
-    print(f"Le répertoire de sortie '{output_dir}' a été créé avec succès ou existe déjà.")
+    print(f"Le répertoire de sortie '{output_dir}' a été créé avec succès ou existe déjà. \n")
+
+
+
+
+
 
 
 def process_fasta_file(input_file, output_dir, done):
@@ -18,12 +24,9 @@ def process_fasta_file(input_file, output_dir, done):
     """
     # Ouvre le fichier d'entrée en mode lecture
     counter = 1
-    print(done)
-    if done:
-        print("The exercice 2 part 1 is aleardy done, we have created the all the fasta files \n ")
-        # Exercise 2b
-        
-    else:
+    # print(done)
+    if not done:
+
         with open(input_file, "r") as my_file_input:
             for line in my_file_input:
                 line = line.strip()  # Supprime les caractères de fin de ligne
@@ -54,6 +57,49 @@ def process_fasta_file(input_file, output_dir, done):
                         out_file_fast.write(new_sequence + "\n")
                     print(f"Fichier créé : {filename}")
 
+    else:
+        print("The exercice 2 part 1 is aleardy done, we have created the all the fasta files \n \
+              Now we blast the files that we have already created \n")
+
+        # Exercise 2b
+        run_blast_for_fasta_files()
+        
+
+def run_blast_for_fasta_files(db="BLAST_db/H4476DB", 
+                              input_folder="Output_fasta_files", 
+                              output_folder_for_Blast="Results_for_Blast"):
+    """
+    Exécute la commande BLAST sur chaque fichier FASTA dans un dossier de requêtes.
+    
+    Parameters:
+    - db (str): Chemin vers la base de données BLAST du génome.
+    - input_folder (str): Dossier contenant les fichiers FASTA de requête.
+    - output_folder (str): Dossier pour stocker les résultats.
+    """
+    
+    # Crée le dossier de résultats s'il n'existe pas
+    create_output_directory(output_folder_for_Blast)
+
+    # Boucle sur chaque fichier FASTA dans le dossier de requêtes
+    for fasta_file in os.listdir(input_folder):
+        if fasta_file.endswith(".fasta"):
+            # Obtenir le nom de base du fichier (sans l'extension)
+            base_name = os.path.splitext(fasta_file)[0]
+
+            # Chemin complet du fichier de sortie pour ce fichier de requête
+            output_file = os.path.join(output_folder_for_Blast, f"{base_name}_blast_resultats.txt")
+
+            # Chemin complet du fichier de requête
+            fasta_path = os.path.join(input_folder, fasta_file)
+
+            # Exécuter la commande BLAST pour chaque fichier de requête
+            subprocess.run(["blastn", "-query", fasta_path, "-db", db, "-out", output_file])
+
+            print(f"BLAST terminé pour {fasta_path}. Résultats enregistrés dans {output_file}.")
+
+
+
+
 def main():
     # Configure l'analyseur d'arguments
     parser = argparse.ArgumentParser(description="Traite un fichier FASTA et sépare les séquences en fichiers individuels.")
@@ -70,7 +116,8 @@ def main():
     # Traite le fichier FASTA d'entrée
     process_fasta_file(args.input_file, args.output_dir, args.exo2_a_done)
 
-    print("Conversion en fichiers FASTA individuels terminée avec succès.")
+    if args.exo2_a_done:
+        print("Conversion en fichiers FASTA individuels terminée avec succès.\n")
 
 # Point d'entrée pour le script
 if __name__ == "__main__":
