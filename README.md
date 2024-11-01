@@ -40,7 +40,7 @@ Après installation, vérifiez la version en exécutant :
 ```bash
 blastn -version
 ```
-## Installation
+## Téléchargement
 
 Téléchargez le script dans le dossier de votre choix.
 ```bash
