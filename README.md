@@ -37,7 +37,7 @@ blastn -version
 
 Téléchargez le script dans le dossier de votre choix.
 ```bash
-https://github.com/FenosoaRandrianjatovo/exo2.git
+git clone https://github.com/FenosoaRandrianjatovo/exo2.git
 ```
 
 ## Utilisation de script Python
