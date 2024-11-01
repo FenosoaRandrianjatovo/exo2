@@ -22,7 +22,7 @@ def process_fasta_file(input_file, output_dir, done):
     :param input_file: Chemin vers le fichier FASTA d'entrée
     :param output_dir: Répertoire pour stocker les fichiers de sortie
     """
-    # Ouvre le fichier d'entrée en mode lecture
+    
 
     counter = 1 #this will help us to handle the existing ID for the sequence in faste file
     # print(done)
@@ -79,10 +79,11 @@ def run_blast_for_fasta_files(db="BLAST_db/H4476DB",
     - output_folder (str): Dossier pour stocker les résultats.
     """
     
-    # Crée le dossier de résultats s'il n'existe pas
+    # Creating the repo if it is not exist
     create_output_directory(output_folder_for_Blast)
 
-    # Boucle sur chaque fichier FASTA dans le dossier de requêtes
+
+    # To loop through each FASTa flies inside the request folder
     for fasta_file in os.listdir(input_folder):
         if fasta_file.endswith(".fasta"):
             # Obtenir le nom de base du fichier (sans l'extension)
@@ -91,10 +92,12 @@ def run_blast_for_fasta_files(db="BLAST_db/H4476DB",
             # Chemin complet du fichier de sortie pour ce fichier de requête
             output_file = os.path.join(output_folder_for_Blast, f"{base_name}_blast_resultats.txt")
 
-            # Chemin complet du fichier de requête
+
+            # The full  path for the request folder
             fasta_path = os.path.join(input_folder, fasta_file)
 
-            # Exécuter la commande BLAST pour chaque fichier de requête
+
+            # To run the Blast command line for each request
             subprocess.run(["blastn", "-query", fasta_path, "-db", db, "-out", output_file])
 
             print(f"BLAST terminé pour {fasta_path}. Résultats enregistrés dans {output_file}.")
@@ -112,16 +115,17 @@ def main():
     parser.add_argument("-done", "--exo2_a_done", type=lambda x: x.lower() == 'true', default=False, help="i on a cree nos fichier fasta, on fait True")
     args = parser.parse_args()
 
-    # Crée le répertoire de sortie s'il n'existe pas
+    # Creating the repo if it is not exist
     create_output_directory(args.output_dir)
 
-    # Traite le fichier FASTA d'entrée
+    # Exercice 2 Part 1
     process_fasta_file(args.input_file, args.output_dir, args.exo2_a_done)
 
     if args.exo2_a_done:
-        print("Conversion en fichiers FASTA individuels terminée avec succès.\n")
+        print(" We have Succefullt convert the original fasta file into many single fasta files.\n")
 
-# Point d'entrée pour le script
+
+# We enter in the main script to run as a python script
 if __name__ == "__main__":
     
     main()
