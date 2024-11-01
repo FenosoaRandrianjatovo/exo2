@@ -5,7 +5,7 @@ Ce script traite un fichier FASTA contenant plusieurs séquences et enregistre c
 ## Prérequis
 
 - Python 3.9
-- Modules intégrés : `argparse`, `os`,`subprocess`
+- Modules intégrés : `argparse`, `os`,`subprocess`.
 -  BLAST
 
 ## Installation
@@ -36,6 +36,9 @@ blastn -version
 ## Installation
 
 Téléchargez le script dans le dossier de votre choix.
+```bash
+https://github.com/FenosoaRandrianjatovo/exo2.git
+```
 
 ## Utilisation de script Python
 
