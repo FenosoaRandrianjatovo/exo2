@@ -6,6 +6,7 @@ Ce script traite un fichier FASTA contenant plusieurs séquences et enregistre c
 
 - Python 3.9
 - Modules intégrés : `argparse`, `os`
+-  BLAST
 
 ## Installation
 
