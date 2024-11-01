@@ -14,11 +14,22 @@ Ce script traite un fichier FASTA contenant plusieurs séquences et enregistre c
  
 # Prérequis pour l'utilisation de ce script
 
-Ce script nécessite **BLAST** (Basic Local Alignment Search Tool), un outil de bioinformatique pour comparer des séquences biologiques. Assurez-vous que BLAST est installé et accessible depuis votre terminal pour exécuter ce script.
+Ce script nécessite **BLAST** (Basic Local Alignment Search Tool), un outil de bioinformatique pour comparer des séquences biologiques,  telles que des séquences d'ADN ou de protéines, avec des bases de données de séquences. 
+
+## Objectif de l'utilisation de BLAST
+
+L'objectif principal de BLAST est d'aligner une séquence de requête (comme un fragment d'ADN ou une séquence de protéine) avec une base de données pour identifier les séquences similaires ou homologues. BLAST est donc indispensable pour :
+- Identifier les séquences similaires dans une grande base de données de référence.
+- Comprendre les relations entre séquences et inférer des relations évolutives.
+- Rechercher des gènes ou des régions spécifiques dans des génomes.
+
+
 
 ## Installation de BLAST
 
-Pour utiliser ce script, installez BLAST via les instructions propres à votre système d'exploitation :
+Assurez-vous que BLAST est installé et accessible depuis votre terminal pour exécuter ce script.
+
+Donc pour utiliser ce script, installez BLAST via les instructions propres à votre système d'exploitation :
 
 - **Linux (Ubuntu/Debian)** : `sudo apt install ncbi-blast+`
 - **macOS** : `brew install blast`
