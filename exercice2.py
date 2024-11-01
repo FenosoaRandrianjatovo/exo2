@@ -23,9 +23,11 @@ def process_fasta_file(input_file, output_dir, done):
     :param output_dir: Répertoire pour stocker les fichiers de sortie
     """
     # Ouvre le fichier d'entrée en mode lecture
-    counter = 1
+
+    counter = 1 #this will help us to handle the existing ID for the sequence in faste file
     # print(done)
-    if not done:
+    
+    if not done: # If the exercice2 part 1 is not done
 
         with open(input_file, "r") as my_file_input:
             for line in my_file_input:
